@@ -45,6 +45,7 @@ cacheSolve <- function(x, ...) {
 
 test <- function() 
 {
+  
   my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
   my_matrix$get()
   my_matrix$getinverse()
